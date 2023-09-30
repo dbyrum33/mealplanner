@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main_body">
+        <div class="hungry" id="hungry">
+            <h1 class="title_phrase_1"> You Hungry?</h1>
+            <figure>
+                <!-- add rotating images here -->
+            </figure>
+            <div class="btn_1">
+                <button class="btn" onclick="findFoodBool()">No, but look anyways</button>
+                <button class="btn" onclick="findFoodBool()">Yes, show me food!</button>  
+            </div>
+            
+        </div>
+        <div class="dinner" id="dinner">
+            <h1 class="title_phrase_2">Whats For Dinner?</h1>
+            <figure>
+                <!--add rotating images here -->
+            </figure>
+            <div class="btn_2">
+                <input type="text" class="zip" placeholder="Enter Zip Code">
+                <button class="submit">Submit</button>  
+            </div>
+            
+        </div>    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

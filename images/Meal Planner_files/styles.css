@@ -1,0 +1,18 @@
+body {
+    background-image: url(images/background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+.main_body {
+    margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+.dinner {
+    display: none;
+}
